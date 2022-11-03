@@ -17,4 +17,17 @@ s6 = 'He said "I can\'t"'
 print(s3a.split(';'))
 print(s3b.split(';')[1])
 
+s5 = 'He said "my name is....."'
+s6 = 'He said "I can\'t"'
+s6 = "He said \"I can't\""
+s6 = "He \\nsaid \"I \tcan't\""
+print(s5)
+print(s6)
+
+print(ord('a'))
+print(ord('b'))
+print(chr(65), end='')
+print(chr(32), end='')
+print(chr(66), end='')
+
 
