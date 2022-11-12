@@ -1,3 +1,5 @@
-import pandas as pd
-df = pd.read_csv(r"D:\Data set\read.csv")
-print(df)
+import seaborn as sns
+data = sns.load_dataset("penguins")
+print(data[:5])
+print(data.shape)
+
