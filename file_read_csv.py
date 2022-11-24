@@ -1,3 +1,5 @@
+#my_file = 'c:\\users\prubac\Desktop\my_matrix.csv'
+#my_file = r'c:\users\prubac\Desktop\my_matrix.csv'
 my_file = 'My_matrix.csv'
 m = []
 with open(my_file, 'r') as f:
